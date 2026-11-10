@@ -1,0 +1,117 @@
+
+# ==============================
+# .NET / ASP.NET Core
+# ==============================
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio
+.vs/
+*.sln.ide
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ==============================
+# NuGet
+# ==============================
+
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+# ==============================
+# Entity Framework Core
+# ==============================
+
+# Temporary migration scripts
+*.sql.tmp
+
+# ==============================
+# SQLite
+# ==============================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Configuration / Secrets
+# ==============================
+
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ==============================
+# Logs and temporary files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+*.cache
+
+# ==============================
+# Operating System
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==============================
+# Test results
+# ==============================
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ==============================
+# Publish
+# ==============================
+
+publish/
+app.publish/
